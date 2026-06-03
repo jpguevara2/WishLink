@@ -190,6 +190,11 @@ public class GiftAdapter
             notifyItemRangeChanged(
                     position,
                     listaRegalos.size());
+
+            if(v.getContext() instanceof Menu){
+
+                ((Menu)v.getContext()).guardarLista();
+            }
         });
     }
 

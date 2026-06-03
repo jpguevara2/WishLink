@@ -270,7 +270,7 @@ public class Menu extends AppCompatActivity {
                 .apply();
     }
 
-    private void guardarLista() {
+    public void guardarLista() {
 
         SharedPreferences prefs =
                 getSharedPreferences(
